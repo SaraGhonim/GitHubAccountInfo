@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #117399;
+  height: 900px;
+  flex-direction: column;
+}
+.form{
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.Error{
+color:red;
+font-size: large;
+font-weight: bold;
+
+
+}
+
+.user-avatar {
+  /* height: 40vmin; */
+  border-radius: 50%;
+  align-self: flex-start;
+  width: 130px;
+  height: 130px;
+}
+
+.container {
+  display: flex;
+background-color: rgb(255, 241, 255);
+border-radius: 6%;
+height: 650px;
+/* flex-direction:row; */
+width: 1000px;
+margin-top: 60px;
+}
+.leftSide{
+  flex-direction: column; 
+  height: 650px;
+  width:300px;
+  margin-left:80px;
+  margin-top: 50px;
+  flex-grow: 1;
+
+}
+.profilePic{
+
+width:130px;
+height: 130px;
+border-radius:6%;
+margin-bottom: 20px;
+}
+.options{
+display: flex;
+align-items: flex-start;
+flex-direction:column;
+justify-content: space-around;
+
+}
+.name{
+display: flex;
+align-items: flex-start;
+font-size: large;
+font-weight: bold;
+margin-bottom: 15px;
+}
+.basic{
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.rightSide{
+width:700px;
+border-radius: 6%;
+flex-grow: 3;
+}
+
+
